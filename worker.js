@@ -8,4 +8,4 @@ async function handleRequest(request) {
     url.hostname = 'blazesnow.com';
 
     return Response.redirect(url.toString(), 301);
-}  
+}
